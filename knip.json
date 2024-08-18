@@ -3,5 +3,5 @@
   "entry": ["src/index.ts", "eslint.config.js"],
   "ignore": [],
   "ignoreBinaries": [],
-  "ignoreDependencies": ["tsx"]
+  "ignoreDependencies": ["tsx", "terser"]
 }

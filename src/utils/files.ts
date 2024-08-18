@@ -3,6 +3,8 @@ import { dirname, join } from "pathe";
 import { fileURLToPath } from "node:url";
 
 export function getCurrentDirname(importMetaUrl: string) {
+  // if (!importMetaUrl.startsWith("file://")) { throw new Error("The provided URL is not a valid file URL."); }
+
   return dirname(fileURLToPath(importMetaUrl));
 }
 
@@ -20,7 +22,7 @@ export async function removeFile(filePath: string) {
   try {
     await fs.unlink(filePath);
   } catch (error) {
-    throw new Error("⛔ Could not read the file.", {
+    throw new Error("⛔ Could not read the file...", {
       cause: error,
     });
   }
