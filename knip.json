@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/knip@5/schema.json",
-  "entry": ["src/index.ts", "eslint.config.js"],
+  "entry": ["src/**/*.ts", "eslint.config.js"],
   "ignore": [],
   "ignoreBinaries": [],
   "ignoreDependencies": ["terser"]

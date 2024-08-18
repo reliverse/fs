@@ -38,6 +38,15 @@ export async function fileExists(path: string): Promise<boolean> {
   }
 }
 
+export async function directoryExists(directoryPath: string): Promise<boolean> {
+  try {
+    const stats = await fs.stat(directoryPath);
+    return stats.isDirectory();
+  } catch {
+    return false;
+  }
+}
+
 export function getFoldersInDirectory(directory: string): string[] {
   return fs
     .readdirSync(directory, {
