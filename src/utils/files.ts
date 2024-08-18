@@ -3,8 +3,6 @@ import { dirname, join } from "pathe";
 import { fileURLToPath } from "node:url";
 
 export function getCurrentDirname(importMetaUrl: string) {
-  // if (!importMetaUrl.startsWith("file://")) { throw new Error("The provided URL is not a valid file URL."); }
-
   return dirname(fileURLToPath(importMetaUrl));
 }
 
