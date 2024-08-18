@@ -1,7 +1,7 @@
 {
   "name": "@reliverse/fs",
   "author": "reliverse",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "type": "module",
   "description": "@reliverse/fs is a utility library that wraps the Node.js native fs module and fs-extra package, providing enhanced file system functionalities. This package is part of the broader @reliverse/addons ecosystem.",
   "scripts": {
@@ -29,7 +29,7 @@
     }
   },
   "types": "./dist/index.d.ts",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "keywords": ["reliverse", "addons", "fs-extra", "fs"],
   "license": "MIT",
   "dependencies": {

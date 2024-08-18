@@ -1,7 +1,7 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-  entry: ["src/**/*.ts", "!src/**/*.test.ts"],
+  entry: ["src/index.ts"],
   minify: "terser",
   format: ["esm"],
   clean: true,
