@@ -11,13 +11,13 @@ For more detailed usage instructions, API documentation, and examples, please vi
 To install this package, run:
 
 ```bash
-pnpm add @reliverse/fs
+pnpm add @reliverse/fs@latest
 ```
 
 or with Bun:
 
 ```bash
-bun add @reliverse/fs
+bun add @reliverse/fs@latest
 ```
 
 ## How to Use This Library

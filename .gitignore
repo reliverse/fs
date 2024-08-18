@@ -169,8 +169,3 @@ yarn-error.log/
 coverage/
 .million/
 .changeset/README.md
-lib
-
-# Libs only
-reset.d.ts
-temp
